@@ -1,0 +1,165 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.125rem 5rem;
+    padding: 0.531rem 2rem;
+    position: relative;
+}
+
+.cabecalho .cabecalho__logo .cabecalho__botao{
+    display: none;
+}
+
+.cabecalho .cabecalho__logo .cabecalho__lista-menu{
+    display: none;
+}
+
+.cabecalho .cabecalho__logo{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.cabecalho .cabecalho__logo span{
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: var(--cor-fonte-logo);
+    margin-right: 2.5rem;
+}
+
+.cabecalho .cabecalho__lista{
+    padding-left: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho .cabecalho__lista .cabecalho__lista__botoes a{
+    font-size: 1rem;
+    color: var(--cor-fonte-cinza);
+    font-weight: 500;
+}
+
+.cabecalho .cabecalho__lista .cabecalho__lista__botoes .cabecalho__lista__botoes__a{
+    margin-left: 2rem;
+}
+
+.cabecalho .cabecalho__lista .cabecalho__lista__icones{
+    display: none;
+}
+
+.cabecalho .cabecalho__login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho .cabecalho__login li a{
+    display: inline-block;
+    padding-right: 0.75rem;
+    font-weight: 500;
+    color: var(--cor-fonte-cinza);
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.5rem;
+    border: 1px solid;
+}
+
+.cabecalho .cabecalho__login li a.cabecalho__login__cadastrar{
+    color: var(--cor-fundo);
+    background-color: var(--cor-primaria);
+    padding: 0.625rem 1.125rem;
+    border-radius: 0.5rem;
+}
+
+.cabecalho .cabecalho__login li a.cabecalho__login__cadastrar:hover{
+    background-color: var(--cor-fonte-preto);
+}
+
+/* Tablets */
+@media screen and (max-width: 1024px) {
+    .cabecalho{
+        
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width: 428px) {
+    .cabecalho{
+       justify-content: none;
+       width: 100%;
+    }
+
+    .cabecalho .cabecalho__logo{
+        gap: 1.5rem;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__botao{
+        display: none;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__botao:checked ~ .cabecalho__rotulo{
+        background-color: var(--cor-fonte-preto);
+        width: 1.688rem;
+        height: 1.688rem;
+    }
+    .cabecalho .cabecalho__logo .cabecalho__botao:checked ~ .cabecalho__rotulo > .cabecalho__menu-hamburguer{
+        background-image: url(../assets/menu-aberto.svg);
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__botao:checked ~ .cabecalho__lista-menu{
+        display: block;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__menu-hamburguer{
+        width: 1.688rem;
+        height: 1.688rem;
+        background-image: url("../assets/menu-fechado.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu{
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 60vw;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu .cabecalho__lista-menu__titulo{
+        color: var(--cor-primaria);
+        font-weight: 700;
+        padding: 1.5rem 0 0.5rem 1.5rem;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu .cabecalho__lista-menu__titulo, .cabecalho__lista-menu__lista{
+        background-color: var(--cor-fundo-transparente);
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu .cabecalho__lista-menu__lista{
+        padding: 1.5rem 0 1rem 1.5rem
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu .cabecalho__lista-menu__imagem{
+        width: 1.688rem;
+        height: 1.688rem;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__lista-menu .cabecalho__lista-menu__botoes{
+        color: var(--cor-fonte-preto);
+        font-weight: 500;
+    }
+    
+
+    .cabecalho .cabecalho__logo span{
+        margin-right: 0;
+    }
+
+    .cabecalho .cabecalho__logo .cabecalho__logo__nome-pagina{
+        display: none;
+    }
+    .cabecalho .cabecalho__logo .cabecalho__lista__botoes{
+        display: none;
+    }
+  }
+

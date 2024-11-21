@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url(styles/header.css);
+@import url(styles/introducao.css);
+@import url(styles/vagas.css);
+@import url(styles/fale-conosco.css);
+@import url(styles/footer.css);
+
+
+:root {
+    --cor-fundo: #FFFFFF;
+    --cor-fundo-cinza: #F9FAFB;
+    --cinza-bordar: #EAECF0;
+    --cor-fundo-transparente: rgba(124, 36, 36, 0.05);
+    --cor-primaria: #8E2424;
+    --cor-fonte-preto: #101828;
+    --cor-fonte-logo: #3A404E;
+    --cor-fonte-cinza: #667085;
+    --cor-fonte-cinza-claro: #98A2B3;
+    --fonte-principal:  "Inter";
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+    body{
+        
+    }
+
+}
+
+@media screen and (max-width: 428px){
+    body{
+        
+    }
+}
+
+html{
+    background-color: aqua;
+}
+
+

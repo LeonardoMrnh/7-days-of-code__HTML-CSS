@@ -1,0 +1,55 @@
+footer {
+    background: var(--cor-fundo-cinza);
+    height: 26.875rem;
+}
+
+footer .rodape{
+    text-align: center;
+}
+
+footer .rodape h2{
+    color: var(--cor-fonte-preto);
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 6rem 0 1.25rem 0;
+}
+footer .rodape .rodape__span-1{
+    color: var(--cor-fonte-cinza);
+    font-size: 1.25rem;
+}
+
+footer .rodape__textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .rodape__textos__email input{
+    width: 22.5rem;
+    height: 3rem;
+    margin: 2.5rem 1rem 2rem 2rem;
+    border-radius: 0.5rem;
+    border:  solid 1px #D0D5DD;
+}
+
+footer .rodape__textos__email input::placeholder{
+    color: var(--cor-fonte-cinza);
+    font-size: 1rem;
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+}
+
+footer .rodape__textos__email a{
+    color: var(--cor-fundo);
+    background: var(--cor-primaria);
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem; 
+}
+
+footer .rodape__textos__email a:hover{
+    background-color: var(--cor-fonte-preto);
+}
+
+footer .rodape__span-2{
+    color: var(--cor-fonte-cinza-claro);
+}

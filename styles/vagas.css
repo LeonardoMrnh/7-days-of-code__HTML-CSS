@@ -1,0 +1,68 @@
+main .pagina__vagas .pagina__vagas__superior{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 1rem 0;
+}
+
+main .pagina__vagas .pagina__vagas__superior h5{
+    padding: 0.25rem 0.75rem;
+    font-weight: 600;
+    background-color: var(--cor-fundo-transparente);
+    color: var(--cor-primaria);
+    border-radius: 0.5rem;
+}
+
+main .pagina__vagas .pagina__vagas__superior h2{
+    color: var(--cor-fonte-preto);
+    font-weight: 600;
+    font-size: 2.25rem;
+    padding: 0.938rem 1.25rem;
+}
+
+main .pagina__vagas .pagina__vagas__superior p{
+    font-size: 1.25rem;
+    color: var(--cor-fonte-cinza);
+}
+
+main .pagina__vagas .pagina__vagas__superior img{
+    padding: 4rem 7rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior{
+    padding:  0 21rem;
+}
+main .pagina__vagas .pagina__vagas__inferior .padding__h4{
+    padding-top: 2.5rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior .pagina__vagas__inferior__titulos{
+    color: var(--cor-fonte-preto);
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior .pagina__vagas__inferior__titulos__interno{
+    color: var(--cor-fonte-preto);
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior li{
+    border: solid 1px var(--cinza-bordar);
+    border-radius: 1rem;
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior span{
+    padding-right: 1.5rem;
+}
+
+main .pagina__vagas .pagina__vagas__inferior p{
+    color: var(--cor-fonte-cinza);
+    font-size: 1rem;
+    font-weight: 500;
+}
