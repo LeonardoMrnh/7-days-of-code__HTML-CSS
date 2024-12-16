@@ -26,11 +26,14 @@ main .pagina__vagas .pagina__vagas__superior p{
 }
 
 main .pagina__vagas .pagina__vagas__superior img{
-    padding: 4rem 7rem;
+    width: 75%;
+    padding: 4rem 0;
 }
 
 main .pagina__vagas .pagina__vagas__inferior{
-    padding:  0 21rem;
+    display: flex;
+    justify-content: center;
+    
 }
 main .pagina__vagas .pagina__vagas__inferior .padding__h4{
     padding-top: 2.5rem;
@@ -53,6 +56,7 @@ main .pagina__vagas .pagina__vagas__inferior .pagina__vagas__inferior__titulos__
 main .pagina__vagas .pagina__vagas__inferior li{
     border: solid 1px var(--cinza-bordar);
     border-radius: 1rem;
+    width: 45vw;
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     margin-bottom: 1.5rem;
 }

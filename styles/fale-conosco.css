@@ -8,8 +8,9 @@ main .pagina__fale-conosco{
 
 main .pagina__fale-conosco__div{
     background-color: var(--cor-fundo-transparente);
-    height: 25.25rem;
-    margin: 0 7rem 6rem 7rem;
+    height: 100%;
+    width: 80%;
+    margin-bottom: 7rem;
     border-radius: 1rem;
 }
 
@@ -24,9 +25,9 @@ main .pagina__fale-conosco p{
     color: var(--cor-fonte-preto);
     font-size: 2.25rem;
     font-weight: 500;
-    align-items: center;
-    width: 68rem;
-    padding: 1rem 4rem 0 4rem;
+    text-align: center;
+    /* width: 68rem; */
+    margin-top: 1rem;
 }
 
 main .pagina__fale-conosco .pagina__fale-conosco__div-img{
@@ -50,4 +51,5 @@ main .pagina__fale-conosco .pagina__fale-conosco__span-julia{
 main .pagina__fale-conosco .pagina__fale-conosco__span-web{
     color: var(--cor-fonte-cinza);
     font-size: 0.875rem;
+    margin-bottom: 4rem;
 }

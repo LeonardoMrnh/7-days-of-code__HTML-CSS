@@ -11,6 +11,7 @@
     --cor-fundo-cinza: #F9FAFB;
     --cinza-bordar: #EAECF0;
     --cor-fundo-transparente: rgba(124, 36, 36, 0.05);
+    --cor-fundo-hamburguer: rgba(0, 0, 0, 1);
     --cor-primaria: #8E2424;
     --cor-fonte-preto: #101828;
     --cor-fonte-logo: #3A404E;
@@ -24,23 +25,6 @@ body{
     font-family: var(--fonte-principal);
     font-size: 1rem;
     font-weight: 400;
-}
-
-@media screen and (max-width: 1024px) {
-    body{
-        
-    }
-
-}
-
-@media screen and (max-width: 428px){
-    body{
-        
-    }
-}
-
-html{
-    background-color: aqua;
 }
 
 

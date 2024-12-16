@@ -1,6 +1,5 @@
 footer {
     background: var(--cor-fundo-cinza);
-    height: 26.875rem;
 }
 
 footer .rodape{
@@ -13,6 +12,7 @@ footer .rodape h2{
     font-weight: 600;
     margin: 6rem 0 1.25rem 0;
 }
+
 footer .rodape .rodape__span-1{
     color: var(--cor-fonte-cinza);
     font-size: 1.25rem;
@@ -23,6 +23,10 @@ footer .rodape__textos{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+footer .rodape__textos__email{
+    display: inline-block;
 }
 
 footer .rodape__textos__email input{
@@ -40,10 +44,12 @@ footer .rodape__textos__email input::placeholder{
 }
 
 footer .rodape__textos__email a{
+    display: inline-block;
     color: var(--cor-fundo);
     background: var(--cor-primaria);
+    height: 1.563rem;
     border-radius: 0.5rem;
-    padding: 0.75rem 1.25rem; 
+    padding: 0.75rem 1.25rem;
 }
 
 footer .rodape__textos__email a:hover{
@@ -52,4 +58,11 @@ footer .rodape__textos__email a:hover{
 
 footer .rodape__span-2{
     color: var(--cor-fonte-cinza-claro);
+}
+
+/* Mobile */
+@media screen and (max-width: 585px) {
+    footer .rodape__textos__email input {   
+        width: 50vw;
+    }
 }
